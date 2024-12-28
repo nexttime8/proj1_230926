@@ -237,10 +237,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pfAKDwYgVLJeoJG8frZa" name="技术方案">
-    <mxGraphModel dx="1512" dy="1275" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1761" dy="1448" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4LFoB5psmHeLvml2idQo-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-374" y="827" width="874" height="132" as="geometry" />
+        </mxCell>
         <mxCell id="KzYa9MgzFKsz4GuTR1jM-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KzYa9MgzFKsz4GuTR1jM-1" target="KzYa9MgzFKsz4GuTR1jM-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-658" y="105" as="targetPoint" />
@@ -270,90 +273,123 @@
         <mxCell id="KzYa9MgzFKsz4GuTR1jM-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;模型训练与约束添加&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-362" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KzYa9MgzFKsz4GuTR1jM-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KzYa9MgzFKsz4GuTR1jM-11">
+        <mxCell id="4LFoB5psmHeLvml2idQo-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-709" y="430" width="240" height="931" as="geometry" />
+        </mxCell>
+        <mxCell id="KzYa9MgzFKsz4GuTR1jM-36" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="4LFoB5psmHeLvml2idQo-5" source="KzYa9MgzFKsz4GuTR1jM-16" target="KzYa9MgzFKsz4GuTR1jM-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzYa9MgzFKsz4GuTR1jM-16" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;模型训练&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4LFoB5psmHeLvml2idQo-5">
+          <mxGeometry y="338.97948717948714" width="240" height="47.74358974358974" as="geometry" />
+        </mxCell>
+        <mxCell id="KzYa9MgzFKsz4GuTR1jM-23" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="4LFoB5psmHeLvml2idQo-5" source="KzYa9MgzFKsz4GuTR1jM-17" target="KzYa9MgzFKsz4GuTR1jM-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzYa9MgzFKsz4GuTR1jM-17" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;专业术语预训练词嵌入模型输入层&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4LFoB5psmHeLvml2idQo-5">
+          <mxGeometry y="270.5470085470085" width="240" height="47.74358974358974" as="geometry" />
+        </mxCell>
+        <mxCell id="KzYa9MgzFKsz4GuTR1jM-22" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="4LFoB5psmHeLvml2idQo-5" source="KzYa9MgzFKsz4GuTR1jM-18" target="KzYa9MgzFKsz4GuTR1jM-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzYa9MgzFKsz4GuTR1jM-18" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;模型基础架构构建&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4LFoB5psmHeLvml2idQo-5">
+          <mxGeometry y="202.11452991452992" width="240" height="47.74358974358974" as="geometry" />
+        </mxCell>
+        <mxCell id="KzYa9MgzFKsz4GuTR1jM-24" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4LFoB5psmHeLvml2idQo-5" source="KzYa9MgzFKsz4GuTR1jM-25" target="KzYa9MgzFKsz4GuTR1jM-27">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-529" y="446" as="targetPoint" />
+            <mxPoint x="180" y="475.0487179487181" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KzYa9MgzFKsz4GuTR1jM-11" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;数据收集&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-589" y="361" width="120" height="60" as="geometry" />
+        <mxCell id="KzYa9MgzFKsz4GuTR1jM-25" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;先验知识整理与形式化&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4LFoB5psmHeLvml2idQo-5">
+          <mxGeometry y="407.4119658119658" width="240" height="47.74358974358974" as="geometry" />
         </mxCell>
-        <mxCell id="KzYa9MgzFKsz4GuTR1jM-20" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KzYa9MgzFKsz4GuTR1jM-15" target="KzYa9MgzFKsz4GuTR1jM-19">
+        <mxCell id="KzYa9MgzFKsz4GuTR1jM-26" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="4LFoB5psmHeLvml2idQo-5" source="KzYa9MgzFKsz4GuTR1jM-27" target="KzYa9MgzFKsz4GuTR1jM-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzYa9MgzFKsz4GuTR1jM-27" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;将先验知识作为约束或正则加入模型训练目标函数&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4LFoB5psmHeLvml2idQo-5">
+          <mxGeometry y="475.0487179487181" width="240" height="47.74358974358974" as="geometry" />
+        </mxCell>
+        <mxCell id="4LFoB5psmHeLvml2idQo-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="4LFoB5psmHeLvml2idQo-5" source="KzYa9MgzFKsz4GuTR1jM-28" target="4LFoB5psmHeLvml2idQo-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzYa9MgzFKsz4GuTR1jM-28" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;知识图谱应用与验证&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4LFoB5psmHeLvml2idQo-5">
+          <mxGeometry y="746.3914529914529" width="240" height="47.74358974358974" as="geometry" />
+        </mxCell>
+        <mxCell id="KzYa9MgzFKsz4GuTR1jM-29" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="4LFoB5psmHeLvml2idQo-5" source="KzYa9MgzFKsz4GuTR1jM-30" target="KzYa9MgzFKsz4GuTR1jM-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzYa9MgzFKsz4GuTR1jM-30" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;知识图谱构建与存储&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4LFoB5psmHeLvml2idQo-5">
+          <mxGeometry y="677.9589743589743" width="240" height="47.74358974358974" as="geometry" />
+        </mxCell>
+        <mxCell id="KzYa9MgzFKsz4GuTR1jM-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="4LFoB5psmHeLvml2idQo-5" source="KzYa9MgzFKsz4GuTR1jM-32" target="KzYa9MgzFKsz4GuTR1jM-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzYa9MgzFKsz4GuTR1jM-32" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;利用优化后的模型进行知识抽取&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4LFoB5psmHeLvml2idQo-5">
+          <mxGeometry y="609.5264957264958" width="240" height="47.74358974358974" as="geometry" />
+        </mxCell>
+        <mxCell id="KzYa9MgzFKsz4GuTR1jM-33" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="4LFoB5psmHeLvml2idQo-5" source="KzYa9MgzFKsz4GuTR1jM-34" target="KzYa9MgzFKsz4GuTR1jM-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzYa9MgzFKsz4GuTR1jM-34" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;模型评估与优化&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4LFoB5psmHeLvml2idQo-5">
+          <mxGeometry y="541.094017094017" width="240" height="47.74358974358974" as="geometry" />
+        </mxCell>
+        <mxCell id="4LFoB5psmHeLvml2idQo-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;知识图谱应用与验证&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4LFoB5psmHeLvml2idQo-5">
+          <mxGeometry y="814.8239316239316" width="240" height="47.74358974358974" as="geometry" />
+        </mxCell>
+        <mxCell id="4LFoB5psmHeLvml2idQo-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="4LFoB5psmHeLvml2idQo-16" target="4LFoB5psmHeLvml2idQo-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4LFoB5psmHeLvml2idQo-16" value="&lt;span style=&quot;-webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); font-weight: 600; color: initial; font-size: 16px; line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-family: Inter, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;SF Pro SC&amp;quot;, &amp;quot;SF Pro Display&amp;quot;, &amp;quot;SF Pro Icons&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; text-align: left;&quot;&gt;采用词向量模型计算语义相似度&lt;br&gt;（Word2Vec）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-53" y="418.8694871794871" width="240" height="47.74358974358974" as="geometry" />
+        </mxCell>
+        <mxCell id="4LFoB5psmHeLvml2idQo-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="4LFoB5psmHeLvml2idQo-18" target="4LFoB5psmHeLvml2idQo-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4LFoB5psmHeLvml2idQo-18" value="&lt;span style=&quot;-webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); font-weight: 600; color: initial; font-size: 16px; line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-family: Inter, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;SF Pro SC&amp;quot;, &amp;quot;SF Pro Display&amp;quot;, &amp;quot;SF Pro Icons&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; text-align: left;&quot;&gt;利用领域词典进行词汇匹配&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;-webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); font-weight: 600; color: initial; font-size: 16px; line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-family: Inter, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;SF Pro SC&amp;quot;, &amp;quot;SF Pro Display&amp;quot;, &amp;quot;SF Pro Icons&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; text-align: left;&quot;&gt;（标注潜在实体）&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-53" y="350.43700854700853" width="240" height="47.74358974358974" as="geometry" />
+        </mxCell>
+        <mxCell id="4LFoB5psmHeLvml2idQo-19" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="4LFoB5psmHeLvml2idQo-20" target="4LFoB5psmHeLvml2idQo-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4LFoB5psmHeLvml2idQo-20" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;基于规则初步筛选&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-53" y="282.00452991452994" width="240" height="47.74358974358974" as="geometry" />
+        </mxCell>
+        <mxCell id="4LFoB5psmHeLvml2idQo-21" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4LFoB5psmHeLvml2idQo-22" target="4LFoB5psmHeLvml2idQo-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="127" y="554.9387179487181" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LFoB5psmHeLvml2idQo-22" value="&lt;span style=&quot;-webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); --desktop-home-page-background-color: #f4f4f4; --desktop-home-card-background-color: #fdfdfd; --desktop-home-card-background-color-hover: #fff; --desktop-home-popup-background-color: #f6f5f5; font-weight: 600; color: initial; font-size: 16px; line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-family: Inter, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;SF Pro SC&amp;quot;, &amp;quot;SF Pro Display&amp;quot;, &amp;quot;SF Pro Icons&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; text-align: left;&quot;&gt;基于注意力机制的语义增强模块&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-53" y="487.3019658119657" width="240" height="47.74358974358974" as="geometry" />
+        </mxCell>
+        <mxCell id="4LFoB5psmHeLvml2idQo-23" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="4LFoB5psmHeLvml2idQo-24" target="4LFoB5psmHeLvml2idQo-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4LFoB5psmHeLvml2idQo-24" value="&lt;span style=&quot;-webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); --desktop-home-page-background-color: #f4f4f4; --desktop-home-card-background-color: #fdfdfd; --desktop-home-card-background-color-hover: #fff; --desktop-home-popup-background-color: #f6f5f5; font-weight: 600; color: initial; font-size: 16px; line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-family: Inter, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;SF Pro SC&amp;quot;, &amp;quot;SF Pro Display&amp;quot;, &amp;quot;SF Pro Icons&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; text-align: left;&quot;&gt;基于 LSTM 的上下文理解模型&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-53" y="554.9387179487181" width="240" height="47.74358974358974" as="geometry" />
+        </mxCell>
+        <mxCell id="4LFoB5psmHeLvml2idQo-25" value="&lt;span style=&quot;-webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); --desktop-home-page-background-color: #f4f4f4; --desktop-home-card-background-color: #fdfdfd; --desktop-home-card-background-color-hover: #fff; --desktop-home-popup-background-color: #f6f5f5; font-weight: 600; color: initial; font-size: 16px; line-height: var(--md-box-samantha-normal-text-line-height); overflow-anchor: auto; font-family: Inter, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;SF Pro SC&amp;quot;, &amp;quot;SF Pro Display&amp;quot;, &amp;quot;SF Pro Icons&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; text-align: left;&quot;&gt;实体消歧决策&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-53" y="620.984017094017" width="240" height="47.74358974358974" as="geometry" />
+        </mxCell>
+        <mxCell id="4LFoB5psmHeLvml2idQo-27" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KzYa9MgzFKsz4GuTR1jM-15" target="KzYa9MgzFKsz4GuTR1jM-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KzYa9MgzFKsz4GuTR1jM-15" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;文本预处理&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-589" y="446" width="120" height="60" as="geometry" />
+          <mxGeometry x="-53" y="869" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KzYa9MgzFKsz4GuTR1jM-36" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KzYa9MgzFKsz4GuTR1jM-16" target="KzYa9MgzFKsz4GuTR1jM-25">
+        <mxCell id="4LFoB5psmHeLvml2idQo-26" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KzYa9MgzFKsz4GuTR1jM-11" target="KzYa9MgzFKsz4GuTR1jM-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KzYa9MgzFKsz4GuTR1jM-16" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;模型训练&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-589" y="787" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KzYa9MgzFKsz4GuTR1jM-23" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KzYa9MgzFKsz4GuTR1jM-17" target="KzYa9MgzFKsz4GuTR1jM-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KzYa9MgzFKsz4GuTR1jM-17" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;专业术语预训练词嵌入模型输入层&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-589" y="701" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KzYa9MgzFKsz4GuTR1jM-22" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KzYa9MgzFKsz4GuTR1jM-18" target="KzYa9MgzFKsz4GuTR1jM-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KzYa9MgzFKsz4GuTR1jM-18" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;模型基础架构构建&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-589" y="615" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KzYa9MgzFKsz4GuTR1jM-21" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KzYa9MgzFKsz4GuTR1jM-19" target="KzYa9MgzFKsz4GuTR1jM-18">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="KzYa9MgzFKsz4GuTR1jM-11" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;数据收集&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-362" y="869" width="240" height="48" as="geometry" />
         </mxCell>
         <mxCell id="KzYa9MgzFKsz4GuTR1jM-19" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;专业术语预训练词嵌入准备&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-589" y="529" width="120" height="60" as="geometry" />
+          <mxGeometry x="256" y="869" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KzYa9MgzFKsz4GuTR1jM-24" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KzYa9MgzFKsz4GuTR1jM-25">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-529" y="958" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="4LFoB5psmHeLvml2idQo-28" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;原始文本数据&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7" y="198" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KzYa9MgzFKsz4GuTR1jM-25" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;先验知识整理与形式化&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-589" y="873" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KzYa9MgzFKsz4GuTR1jM-26" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KzYa9MgzFKsz4GuTR1jM-27" target="KzYa9MgzFKsz4GuTR1jM-34">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KzYa9MgzFKsz4GuTR1jM-27" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;将先验知识作为约束或正则加入模型训练目标函数&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-589" y="958" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="4LFoB5psmHeLvml2idQo-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KzYa9MgzFKsz4GuTR1jM-28" target="4LFoB5psmHeLvml2idQo-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KzYa9MgzFKsz4GuTR1jM-28" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;知识图谱应用与验证&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-589" y="1299" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KzYa9MgzFKsz4GuTR1jM-29" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KzYa9MgzFKsz4GuTR1jM-30" target="KzYa9MgzFKsz4GuTR1jM-28">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KzYa9MgzFKsz4GuTR1jM-30" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;知识图谱构建与存储&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-589" y="1213" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KzYa9MgzFKsz4GuTR1jM-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KzYa9MgzFKsz4GuTR1jM-32" target="KzYa9MgzFKsz4GuTR1jM-30">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KzYa9MgzFKsz4GuTR1jM-32" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;利用优化后的模型进行知识抽取&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-589" y="1127" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KzYa9MgzFKsz4GuTR1jM-33" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KzYa9MgzFKsz4GuTR1jM-34" target="KzYa9MgzFKsz4GuTR1jM-32">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KzYa9MgzFKsz4GuTR1jM-34" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;模型评估与优化&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-589" y="1041" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="4LFoB5psmHeLvml2idQo-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="4LFoB5psmHeLvml2idQo-1" target="4LFoB5psmHeLvml2idQo-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4LFoB5psmHeLvml2idQo-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;知识图谱应用与验证&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-589" y="1385" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="4LFoB5psmHeLvml2idQo-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;完成知识图谱构建与应用研究&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-589" y="1471" width="120" height="60" as="geometry" />
+        <mxCell id="4LFoB5psmHeLvml2idQo-29" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;消歧后的&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;实体标注文本&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2.5" y="692" width="129" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
