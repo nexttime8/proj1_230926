@@ -1,14 +1,17 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.1">
   <diagram name="第 1 页" id="t6PiUsuVXjMinygrL5fd">
-    <mxGraphModel dx="1834" dy="1295" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1219" dy="911" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="14Ckpb39VT0GHCtDDbz8-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" parent="1" vertex="1">
-          <mxGeometry x="-255" y="-162" width="875" height="86" as="geometry" />
-        </mxCell>
         <mxCell id="14Ckpb39VT0GHCtDDbz8-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="-253" y="56" width="874" height="274" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-48" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-152" y="75" width="110" height="228" as="geometry" />
+        </mxCell>
+        <mxCell id="14Ckpb39VT0GHCtDDbz8-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="-255" y="-162" width="875" height="86" as="geometry" />
         </mxCell>
         <mxCell id="14Ckpb39VT0GHCtDDbz8-3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="-255" y="-53" width="876" height="86" as="geometry" />
@@ -54,6 +57,78 @@
         </mxCell>
         <mxCell id="Q42F53yCSbWkSL1UYH6B-15" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;事件推理&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="281" y="-33.5" width="120" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-17" value="语法分析" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-149" y="195" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-18" value="句法分析" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-149" y="234" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-19" value="词性标注" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-149" y="156" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-20" value="分词" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-149" y="117" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-21" value="··· ···" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-127" y="272" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-22" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;自然语言处理&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-149" y="78" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-23" value="关系抽取" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-29" y="195" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-24" value="事件识别" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-29" y="234" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-25" value="概念抽取" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-29" y="156" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-26" value="实体识别" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-29" y="117" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-27" value="··· ···" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-7" y="272" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-28" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;知识抽取&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-29" y="78" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-36" value="实体消歧" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="90" y="195" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-37" value="实体链接" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="90" y="234" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-38" value="实体对齐" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="90" y="156" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-39" value="指代消解" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="90" y="117" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-40" value="··· ···" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="112" y="272" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-41" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;知识融合&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="78" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-42" value="知识更新" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="208" y="195" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-43" value="质量评估" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="208" y="234" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-44" value="知识存储" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="208" y="156" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-45" value="知识校验" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="208" y="117" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-46" value="··· ···" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="230" y="272" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-47" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;知识加工&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="208" y="78" width="104" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
