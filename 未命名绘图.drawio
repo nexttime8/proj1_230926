@@ -4,17 +4,26 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="14Ckpb39VT0GHCtDDbz8-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" vertex="1" parent="1">
+        <mxCell id="14Ckpb39VT0GHCtDDbz8-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="-255" y="-162" width="782" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="14Ckpb39VT0GHCtDDbz8-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" vertex="1" parent="1">
+        <mxCell id="14Ckpb39VT0GHCtDDbz8-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="-253" y="56" width="782" height="274" as="geometry" />
         </mxCell>
-        <mxCell id="14Ckpb39VT0GHCtDDbz8-3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" vertex="1" parent="1">
+        <mxCell id="14Ckpb39VT0GHCtDDbz8-3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="-255" y="-53" width="782" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="14Ckpb39VT0GHCtDDbz8-4" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" vertex="1" parent="1">
+        <mxCell id="14Ckpb39VT0GHCtDDbz8-4" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="-255" y="353" width="782" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-1" value="图谱应用" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-239" y="-140" width="46" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-2" value="图谱构建" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-229" y="175" width="46" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q42F53yCSbWkSL1UYH6B-3" value="知识计算" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-229" y="-13" width="46" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
