@@ -242,7 +242,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="IpESpvStK-nfuUsSS7RT-36" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#7EA6E0;" vertex="1" parent="1">
-          <mxGeometry x="203" y="355" width="612" height="184" as="geometry" />
+          <mxGeometry x="203" y="355" width="825" height="184" as="geometry" />
         </mxCell>
         <mxCell id="IpESpvStK-nfuUsSS7RT-35" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#7EA6E0;" vertex="1" parent="1">
           <mxGeometry x="-463" y="335.31" width="390" height="78" as="geometry" />
@@ -499,6 +499,22 @@
         </mxCell>
         <mxCell id="4LFoB5psmHeLvml2idQo-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;知识图谱应用与验证&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-953" y="1244.8239316239315" width="240" height="47.74358974358974" as="geometry" />
+        </mxCell>
+        <mxCell id="IpESpvStK-nfuUsSS7RT-45" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: Inter, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;SF Pro SC&amp;quot;, &amp;quot;SF Pro Display&amp;quot;, &amp;quot;SF Pro Icons&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;对文本的上下文信息进行建模，&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: Inter, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;SF Pro SC&amp;quot;, &amp;quot;SF Pro Display&amp;quot;, &amp;quot;SF Pro Icons&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px;&quot;&gt;有效处理文本序列中的长短期依赖关系，通过学习文本中单词之间的语义关联，更好地理解实体在特定语境下的含义&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385.65" y="579" width="236" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="IpESpvStK-nfuUsSS7RT-46" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" target="IpESpvStK-nfuUsSS7RT-48" source="IpESpvStK-nfuUsSS7RT-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="736" y="395.9" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IpESpvStK-nfuUsSS7RT-47" value="生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="IpESpvStK-nfuUsSS7RT-46">
+          <mxGeometry x="-0.1101" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IpESpvStK-nfuUsSS7RT-48" value="词向量指标&lt;div&gt;量化的语义相似度&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="839" y="466.61" width="172.67" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
