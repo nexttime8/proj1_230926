@@ -563,7 +563,7 @@
         <mxCell id="IpESpvStK-nfuUsSS7RT-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="IpESpvStK-nfuUsSS7RT-89" source="IpESpvStK-nfuUsSS7RT-2" target="IpESpvStK-nfuUsSS7RT-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IpESpvStK-nfuUsSS7RT-25" value="generate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="IpESpvStK-nfuUsSS7RT-7">
+        <mxCell id="IpESpvStK-nfuUsSS7RT-25" value="生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="IpESpvStK-nfuUsSS7RT-7">
           <mxGeometry x="-0.1229" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -571,7 +571,7 @@
         <mxCell id="IpESpvStK-nfuUsSS7RT-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="IpESpvStK-nfuUsSS7RT-89" source="IpESpvStK-nfuUsSS7RT-2" target="IpESpvStK-nfuUsSS7RT-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IpESpvStK-nfuUsSS7RT-26" value="generate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="IpESpvStK-nfuUsSS7RT-10">
+        <mxCell id="IpESpvStK-nfuUsSS7RT-26" value="生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="IpESpvStK-nfuUsSS7RT-10">
           <mxGeometry x="-0.1101" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
